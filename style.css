@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Allerta", sans-serif;
+  height: 100%;
+}
+
+#navbarMonstera {
+  padding: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#navFirst img {
+  height: 40px;
+}
+
+#navMid,
+#navEnd {
+  display: flex;
+}
+
+#navMid div:not(:last-child) {
+  margin-right: 75px;
+}
+
+#navEnd div:not(:last-child) {
+  margin-right: 35px;
+}
+
+#navEnd div img {
+  height: 20px;
+}
+
+#midWhole {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#imgMain {
+  height: 800px;
+  width: 600px;
+}
+
+#midWholePart1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+
+#midWholePart11 {
+  margin-bottom: 60px;
+}
+
+#midWholePart121 {
+  width: 300px;
+  padding: 25px 40px;
+  background-color: #466d50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50px;
+}
+
+#midWholePart12 {
+  margin-bottom: 100px;
+}
+
+#midWholePart122 {
+  margin-left: 20px;
+}
+
+#monstera {
+  font-size: 86px;
+}
+
+#midWholePart13 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#midWholePart13 .midWholePart13Parts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midWholePart13Parts h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.midWholePart13Parts div:first-child {
+  margin-right: 10px;
+}
+
+.midWholePart13Parts p {
+  font-size: 12px;
+}
